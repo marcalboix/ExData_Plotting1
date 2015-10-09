@@ -1,5 +1,6 @@
 # LoadData.R
 # Environment
+Sys.setlocale("LC_TIME", "en_US")
 setwd("~/Documents/Github/Exploration Data Analysis")
 strSourceFile = "data/household_power_consumption.txt"
 strDestFile = "data/subsetData.rds"
